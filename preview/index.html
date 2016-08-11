@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Preview</title>
+    <style>
+        body {
+            color: #000000;
+            font-family: Monospace;
+            font-size: 13px;
+            text-align: center;
+
+            background-color: #000000;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        a {
+
+            color: #ff0000;
+        }
+
+    </style>
+    <script src="resource/js/three.min.js"></script>
+    <script src="resource/js/loaders/collada/Animation.js"></script>
+    <script src="resource/js/loaders/collada/AnimationHandler.js"></script>
+    <script src="resource/js/loaders/collada/KeyFrameAnimation.js"></script>
+    <script src="resource/js/loaders/ColladaLoader.js"></script>
+    <script src="resource/js/Detector.js"></script>
+    <script src="resource/js/libs/stats.min.js"></script>
+</head>
+<body>
+<div id="container" class="main"></div>
+<div id="info">
+    <a href="http://threejs.org" target="_blank">three.js</a> webgl - collada - skinning
+</div>
+<script>
+    if (!Detector.webgl) Detector.addGetWebGLMessage();
+</script>
+<script src="resource/js/main.js"></script>
+</body>
+</html>

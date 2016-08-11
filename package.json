@@ -1,0 +1,22 @@
+{
+  "name": "design3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinate/3D.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinate/3D/issues"
+  },
+  "homepage": "https://github.com/shinate/3D#readme",
+  "devDependencies": {
+    "three": "^0.79.0"
+  }
+}
